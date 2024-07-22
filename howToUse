@@ -1,0 +1,11 @@
+https://leakix.net 
+
+Before use , you should add API key in header , from settings on leakix page 
+
+python3 sftp_parser.py <pageFrom> <pageTo> 
+
+Example python3 sftp_parser.py 3 5 
+
+Parse all hosts , connect to sftp and if success , write to the creds file 
+
+After you can connect via SFTP or SSH 
